@@ -1,0 +1,52 @@
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255),
+    FOREIGN KEY (PersonID) REFERENCES Students (PersonID)
+);
+
+CREATE TABLE Students (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Smth bool
+);
+
+
+INSERT INTO Persons (PersonID, LastName, FirstName, Address, City) VALUES (367158, 'Name', 'Surname', 'Vyazm', 'SaintP' ), (36718, 'Name', 'Surname', 'Vyazma', 'Sain' ), (8, 'Name', 'Surname', 'Vyazm', 'SaintP');
+INSERT INTO Students (PersonID, LastName, FirstName, Smth) VALUES (367158, 'Name', 'Name', true);
+
+SELECT * FROM Persons WHERE City = 'SaintP' AND LastName = 'Name';
+
+UPLOAD(D:\\labwork12\\labwork-12-12314235\\bd.txt);
+
+quit
+
+
+DOWNLOAD(D:\\labwork12\\labwork-12-12314235\\bd.txt);
+
+SELECT * FROM Persons WHERE City = 'SaintP' AND LastName = 'Name';
+
+quit
+
+
+DOWNLOAD(D:\\labwork12\\labwork-12-12314235\\bd.txt);
+
+SELECT * FROM Persons RIGHT JOIN Students ON Persons.PersonID = Students.PersonID WHERE true;
+
+quit
+ ((a = 1) AND (b = 2)) OR (d = 3)
+
+ (a = 1) (b = 2) AND (d = 3) OR
+
+ AND OR NOT
+
+ CREATE TABLE Persons (    PersonID int,    LastName varchar(255),    FirstName varchar(255),    Address varchar(255),
+  City varchar(255),    FOREIGN KEY (PersonID) REFERENCES Students (PersonID));CREATE TABLE Students (    PersonID int,
+   LastName varchar(255),    FirstName varchar(255),    Smth bool);INSERT INTO Persons (PersonID, LastName, FirstName, Ad
+ dress, City) VALUES (367158, 'Name', 'Surname', 'Vyazm', 'SaintP' ), (36718, 'Name', 'Surname', 'Vyazma', 'Sain' ), (8,
+ 'Name', 'Surname', 'Vyazm', 'SaintP');INSERT INTO Students (PersonID, LastName, FirstName, Smth) VALUES (367158, 'Name',
+  'Name', true);SELECT * FROM Persons WHERE City = 'SaintP' AND LastName = 'Name';UPLOAD(D:\\labwork12\\labwork-12-123142
+ 35\\bd.txt);

@@ -1,0 +1,13 @@
+2
+4 4 1
+Students
+PersonID	LastName	FirstName	Smth	
+INT	VARCHAR	VARCHAR	BOOL	
+367158	'Name'	'Name'	1	
+6 5 3
+Persons
+PersonID	LastName	FirstName	Address	City	
+INT	VARCHAR	VARCHAR	VARCHAR	VARCHAR	
+367158	'Name'	'Surname'	'Vyazm'	'SaintP'	
+367158	'Name'	'Surname'	'Vyazma'	'Sain'	
+8	'Name'	'Surname'	'Vyazm'	'SaintP'	

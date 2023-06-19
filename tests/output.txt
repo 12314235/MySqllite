@@ -1,0 +1,8 @@
+SELECT City = 'SaintP' AND LastName = 'Name'  FROM Persons
+------------------------------------------------------------
+PersonID LastName FirstName Address City 
+367158 'Name' 'Surname' 'Vyazm' 'SaintP' 
+8 'Name' 'Surname' 'Vyazm' 'SaintP' 
+367158 'Name' 'Surname' 'Vyazm' 'SaintP' 
+8 'Name' 'Surname' 'Vyazm' 'SaintP' 
+------------------------------------------------------------
